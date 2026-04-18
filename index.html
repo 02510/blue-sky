@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>你的 OC 名字 | Character Archive</title>
+    <meta
+      name="description"
+      content="一个适合展示 OC 设定、故事线和角色印象的静态个人网页。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top">
+          <span class="brand-mark">OC</span>
+          <span class="brand-text">你的角色档案馆</span>
+        </a>
+        <nav class="site-nav">
+          <a href="#profile">档案</a>
+          <a href="#story">故事</a>
+          <a href="#gallery">印象</a>
+          <a href="#notes">备注</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Original Character / Personal Site</p>
+            <h1>把你的 OC 放进一个像作品集一样的首页里。</h1>
+            <p class="hero-text">
+              这里适合放角色名字、称号、世界观关键词和一句最能代表 TA 的话。
+              下面这些内容都已经帮你排好版了，你只需要替换成自己的设定。
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#profile">开始编辑设定</a>
+              <a class="button ghost" href="#story">查看页面结构</a>
+            </div>
+            <div class="quote-card">
+              <p class="quote-label">角色短句</p>
+              <p class="quote-text" id="quote-text">
+                “我不会停下来，除非月亮先忘了自己的名字。”
+              </p>
+            </div>
+          </div>
+
+          <div class="hero-panel">
+            <div class="portrait-card">
+              <div class="portrait-glow"></div>
+              <div class="portrait-frame">
+                <span class="portrait-tag">立绘 / 头像位</span>
+                <div class="portrait-placeholder">
+                  <span>把你的 OC 图片放这里</span>
+                </div>
+              </div>
+            </div>
+            <div class="floating-stats">
+              <article>
+                <span>年龄</span>
+                <strong>17</strong>
+              </article>
+              <article>
+                <span>阵营</span>
+                <strong>中立</strong>
+              </article>
+              <article>
+                <span>关键词</span>
+                <strong>月光 / 海盐 / 旧梦</strong>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-grid" id="profile">
+          <article class="panel intro-panel">
+            <p class="section-kicker">Character Profile</p>
+            <h2>基础档案</h2>
+            <div class="info-grid">
+              <div>
+                <span>姓名</span>
+                <strong>你的 OC 名字</strong>
+              </div>
+              <div>
+                <span>别称</span>
+                <strong>可以写称号或代号</strong>
+              </div>
+              <div>
+                <span>生日</span>
+                <strong>10 / 21</strong>
+              </div>
+              <div>
+                <span>身高</span>
+                <strong>168 cm</strong>
+              </div>
+              <div>
+                <span>性格</span>
+                <strong>冷静、敏感、嘴硬</strong>
+              </div>
+              <div>
+                <span>能力</span>
+                <strong>写角色技能或特点</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel detail-panel">
+            <p class="section-kicker">First Impression</p>
+            <h2>一句话概括这个人</h2>
+            <p>
+              可以在这里写角色给人的第一印象，比如“看起来像不会回头的人，其实一直偷偷记得每一个离开的人。”
+            </p>
+            <ul class="tags">
+              <li>宿命感</li>
+              <li>微苦</li>
+              <li>成长线</li>
+              <li>反差萌</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="story-layout" id="story">
+          <article class="panel story-main">
+            <p class="section-kicker">Storyline</p>
+            <h2>角色故事</h2>
+            <p>
+              这里适合放比较完整的角色背景。你可以写出生、成长环境、转折事件、和现在的状态，也可以只保留最重要的设定段落。
+            </p>
+            <p>
+              如果你的 OC 有世界观设定，建议这一块写成“这个人为什么会变成现在这样”，比单纯堆资料更有代入感。
+            </p>
+          </article>
+
+          <article class="panel timeline-panel">
+            <p class="section-kicker">Timeline</p>
+            <h2>时间线</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span>01</span>
+                <div>
+                  <strong>童年事件</strong>
+                  <p>写一个奠定角色底色的关键经历。</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span>02</span>
+                <div>
+                  <strong>命运转折</strong>
+                  <p>写让角色真正发生变化的节点。</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <span>03</span>
+                <div>
+                  <strong>现在的目标</strong>
+                  <p>写角色当前想要完成、守护或逃离的事情。</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="gallery-section" id="gallery">
+          <div class="section-heading">
+            <p class="section-kicker">Moodboard</p>
+            <h2>角色印象板</h2>
+          </div>
+          <div class="gallery-grid">
+            <article class="gallery-card tall accent">
+              <span>色彩</span>
+              <strong>把代表 TA 的主色写在这里</strong>
+            </article>
+            <article class="gallery-card wide">
+              <span>关键词</span>
+              <strong>雨夜、胶片、旧电台、玻璃糖</strong>
+            </article>
+            <article class="gallery-card">
+              <span>喜好</span>
+              <strong>把喜欢的食物、物件、地点写在这里</strong>
+            </article>
+            <article class="gallery-card">
+              <span>禁忌</span>
+              <strong>把雷点、恐惧或执念写在这里</strong>
+            </article>
+          </div>
+        </section>
+
+        <section class="notes-section" id="notes">
+          <article class="panel notes-panel">
+            <p class="section-kicker">Creator Notes</p>
+            <h2>作者备注</h2>
+            <p>
+              这里可以写你作为设定者想补充的话，比如灵感来源、CP 关系、与其他 OC
+              的联系，或者“这个角色最开始只是我想画一套衣服”这种幕后小故事。
+            </p>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
